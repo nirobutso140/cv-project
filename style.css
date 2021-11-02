@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    
+    font-family: Roboto;
+}
+.container{
+
+    max-width: 1000px;
+    background-color: rgb(127, 214, 214);
+    margin: 0 auto;
+    padding:20px;
+}
+.profile-image{
+
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+}
+.header-contact a{
+    
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+
+    text-decoration: underline;
+    color: tomato;
+}
+    
+.div-clear{
+
+    clear: both;
+ }
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+    width: 60%;
+    float: left;
+
+}
+.right-div{
+    width: 40%;
+    float: left;
+
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+}
+.h1,h2,h3,h4,h5,h6{
+    color:maroon;
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+.skill-left{
+    float: left;
+    width: 50%;
+    
+}
+.skill-right{
+    float:right;
+    width:45%;
+}
+  
